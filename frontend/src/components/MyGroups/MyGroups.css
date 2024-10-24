@@ -1,0 +1,163 @@
+.group-link {
+  text-decoration: none;
+}
+
+.mygroup-nogroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 600px;
+}
+
+.mygroup-nogroup p {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.create-group-nav-link {
+  padding-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #008294;
+}
+
+.mygroups-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.mygroups-header {
+  position: sticky;
+  top: 77px;
+  background-color: white;
+  display: flex;
+  min-width: 400px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px 16px 30px 16px;
+  border-bottom: 1px solid grey;
+}
+
+.margin-right {
+  margin-right: 40px;
+}
+
+.group-nav-link {
+  border: 1px grey solid;
+}
+
+.nav-link-text {
+  text-decoration: none;
+  font-size: 16px;
+  color: #2e3e48;
+  background-color: white;
+  padding: 16px;
+}
+
+.nav-link-text:hover {
+  color: #00a2c7;
+  background-color: white;
+}
+
+.mygroups-detail {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 180px;
+  width: 100%;
+  align-items: center;
+  padding: 0px 16px 40px 16px;
+}
+
+.no-joined-groups {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: 80px auto;
+  width: 100%;
+  align-items: center;
+  min-height: 500px;
+}
+
+.no-joined-text {
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.to-groups-link {
+  color: #00a2c7;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.to-groups-link:hover {
+  border-bottom: 3px solid #008294;
+}
+
+.mygroup-info {
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+.mygroup-image {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.mygroup-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.mygroups-body h2 {
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.change-color {
+  color: #008294;
+  text-decoration: underline #008294;
+}
+
+.text-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.mygroup-name {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 0 20px 0;
+}
+
+.mygroup-nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #00a2c7;
+  background-color: white;
+}
+
+.mygroup-nav-link:hover {
+  text-decoration: #00a2c7 underline;
+  background-color: white;
+}

@@ -1,0 +1,179 @@
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.start-new-group {
+  background-color: white;
+  border: none;
+}
+
+.start-new-group:hover {
+  padding-bottom: 5px;
+  border-bottom: 4px solid #008294;
+  background-color: white;
+}
+
+.start-new-group-home {
+  font-size: 20px;
+  color: #008294;
+  background-color: white;
+  width: 100%;
+  border: none;
+  padding: 0;
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-family: "system-ui";
+  cursor: pointer;
+}
+
+.start-new-group-home:hover {
+  text-decoration: underline 2px #008294;
+  background-color: white;
+}
+
+.join-meetagroup {
+  font-size: 18px;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 16px;
+  border-color: #008294;
+  background-color: #008294;
+  cursor: pointer;
+}
+
+.join-meetagroup:hover {
+  border-color: #0490a2;
+  background-color: #0490a2;
+}
+
+.get-started {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 8px 12px;
+  margin-left: 26px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  background-color: transparent;
+}
+
+.login-button {
+  font-size: 19px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.login-button:hover {
+  padding-bottom: 5px;
+  background-color: transparent;
+  border-bottom: 4px solid #008294;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  margin: 20px 20px 60px 20px;
+  width: 350px;
+  padding: 40px;
+  height: 700px;
+}
+
+.login-form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.login-form-icon {
+  margin-bottom: 8px;
+  min-height: 25px;
+}
+
+.login-header-h1 {
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.member-yet {
+  cursor: pointer;
+  margin-left: 4px;
+  color: #008294;
+}
+
+.login-form label {
+  color: black;
+  display: block;
+  font-size: 18px;
+  margin: 10px 20px 30px 20px;
+  width: 100%;
+}
+
+.login-form input {
+  width: 100%;
+  height: 50px;
+  margin-top: 12px;
+  line-height: 30px;
+  font-size: 16px;
+  color: black;
+  background-color: transparent;
+  border: 0.5px solid rgb(182, 175, 175);
+  border-radius: 8px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-indent: 2px;
+}
+.login-form button {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(234, 87, 87);
+  border: 0.5px rgb(145, 143, 143) solid;
+  border-radius: 8px;
+  margin-top: 60px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+form .fa-cannabis {
+  color: rgb(231, 177, 186);
+  font-size: 40px;
+}
+
+.error-messages {
+  padding: 0;
+  color: red;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.error-messages li {
+  padding-top: 3px;
+}
+/* change it back to class later */
+input:focus {
+  outline: 1px solid #55b7e1;
+}
+
+.login-form-button:hover {
+  background-color: rgb(230, 104, 104);
+}

@@ -1,0 +1,120 @@
+p,
+h2,
+h3 {
+  margin: 0;
+}
+
+.full-width {
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  z-index: 100;
+  top: 77px;
+  background-color: white;
+}
+
+.all-events-body {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 180px;
+}
+
+.all-events {
+  display: flex;
+  flex-direction: column;
+  /*  */
+  margin: 0 auto 10px auto;
+  max-width: 640px;
+  cursor: pointer;
+}
+
+.one-event {
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid rgb(202, 197, 197);
+}
+
+.one-event-link {
+  display: grid;
+  height: 160px;
+  width: 100%;
+  grid-template-columns: 1fr 2.5fr;
+  grid-template-areas: "pic details";
+  text-decoration: none;
+  color: rgb(94, 92, 92);
+}
+
+.event-imgage {
+  grid-area: pic;
+}
+
+.one-event-detail {
+  display: flex;
+  flex-direction: column;
+  grid-area: details;
+}
+
+.event-img {
+  width: 180px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.event-date {
+  margin: 5px 5px 0px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(143, 110, 49);
+}
+
+.event-name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: black;
+  margin: 5px;
+  padding: 4px 0;
+}
+
+.event-group {
+  margin: 0 5px 20px 5px;
+  font-size: 14px;
+}
+
+.event-location {
+  margin: 0 5px 20px 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.event-attendees {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.event-image {
+  position: relative;
+  margin-right: 15px;
+}
+
+.event-type {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 8px;
+  left: 8px;
+  font-size: 12px;
+  background-color: white;
+  padding: 2px 8px 2px 4px;
+  border-radius: 5px;
+}
+
+.event-type-icon .fa-video {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  padding-right: 4px;
+}

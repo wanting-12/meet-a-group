@@ -1,0 +1,88 @@
+.header-bar-icon-button {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border: 2px solid black;
+  padding: 6px 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(239, 163, 11);
+}
+
+.button-detail {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header-bar-icon-button:hover {
+  background-color: rgb(239, 163, 11);
+}
+
+.icon-container {
+  padding-right: 16px;
+}
+
+.icon-detail {
+  display: flex;
+  flex-direction: column;
+  inset: 0px 0px auto auto;
+  transform: translate3d(0px, 48px, 0px);
+  position: absolute;
+  right: 0;
+  top: 30px;
+  /* don't need z-index because it has the same as its parent */
+  /* z-index: 999; */
+  background-color: rgb(255 255 255);
+  min-width: 160px;
+  margin-right: 20px;
+  border: 1px solid rgb(217 217 217);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+
+.icon-username,
+.icon-email,
+.icon-groups-link,
+.icon-logout-header {
+  margin-top: 12px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.icon-logout-header {
+  margin-bottom: 8px;
+}
+
+.icon-groups-navlink,
+.icon-logout-header {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: BlinkMacSystemFont, Arial, sans-serif;
+}
+
+.icon-logout-button-header {
+  font-weight: 300;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 0;
+  font-family: BlinkMacSystemFont, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.icon-groups-navlink:hover,
+.icon-logout-button-header:hover {
+  color: #008294;
+  background-color: white;
+}
+
+.icon-logout-button {
+  border: none;
+  background-color: white;
+  padding: 0;
+}

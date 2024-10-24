@@ -1,0 +1,132 @@
+.main-footer {
+  padding-top: 16px;
+  color: rgb(246 247 248);
+  background-color: rgb(33 33 33);
+  width: 100%;
+  min-height: fit-content;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 16px 16px;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+.footer-one-flex {
+  display: flex;
+  margin-top: 8px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(246 247 248);
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-one-detail {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-new-group {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.footer-two-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  border-bottom: 1px solid rgb(246 247 248);
+  padding-bottom: 24px;
+}
+
+.footer-detail {
+  margin-bottom: 12px;
+  width: 33.33%;
+}
+
+.footer-title {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.footer-list li {
+  margin: 8px 0;
+}
+
+.footer-button {
+  background-color: rgb(33 33 33);
+  border: none;
+  color: rgb(197 196 196);
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-size: 16px;
+  padding: 0;
+}
+
+.source-link,
+.icon-logout-button-footer {
+  color: rgb(197 196 196);
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  background-color: rgb(33 33 33);
+}
+
+.footer-button:hover,
+.source-link:hover,
+.icon-logout-button-footer:hover {
+  background-color: rgb(33 33 33);
+  color: rgb(154, 151, 151);
+}
+
+.developer-text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 16px;
+}
+.de-profile-svg {
+  width: 30px;
+  height: 30px;
+}
+.mr-12 {
+  margin-right: 22px;
+}
+.ml-8 {
+  margin-left: 12px;
+}
+.github {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  margin-left: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.s-b {
+  justify-content: space-between;
+}
+
+.mtb-12 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.github-click {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

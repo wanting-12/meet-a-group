@@ -1,0 +1,77 @@
+button {
+  cursor: pointer;
+}
+
+.home-header {
+  margin-bottom: 120px;
+  padding-top: 20px;
+}
+
+.header-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.home-title {
+  padding-left: 18px;
+  text-decoration: none;
+  font-family: "Brush Script MT";
+  font-weight: bold;
+  font-size: 40px;
+  color: #f65858;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  margin-left: 16px;
+}
+
+.login-link,
+.signup-link {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.homepage-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-one-home {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.img-two-home {
+  position: absolute;
+  left: 25%;
+  top: 5%;
+  max-width: 75%;
+  height: auto;
+  z-index: -1;
+}
+
+.img-three-home {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  left: unset;
+  transform: unset;
+  z-index: -1;
+}
